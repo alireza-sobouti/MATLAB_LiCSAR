@@ -1,6 +1,6 @@
 # MATLAB_LiCSAR
 
-# LiCSAR Data Processing for Intracontinental Deformation Monitoring
+# LiCSAR Data Processing for Deformation Monitoring
 
 ## Features
 - ****Patch Segmentation**:** Splits the data into smaller patches for manageable processing.
