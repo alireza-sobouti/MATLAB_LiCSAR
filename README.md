@@ -1,14 +1,14 @@
-MATLAB LiCSAR Data Processing Script
-This MATLAB script is designed to process interferometric data from the LiCSAR project. It extracts data from LiCSAR frames, reads and processes metadata, and performs geometric calculations. The data is read and processed in patches for memory efficiency, especially when dealing with large geospatial datasets. The script outputs various results, including unwrapped interferograms, range values, and coherence.
+**First MATLAB LiCSAR Data Processing Script:**
+This MATLAB script is designed to process unwrapped interferograms in LiCSAR portal. It extracts data from LiCSAR frames, reads and processes metadata, and performs geometric calculations. The data is read and processed in patches for memory efficiency, especially when dealing with large datasets. The script outputs various results, including unwrapped interferograms, range values, and coherence.
 
-Requirements
+**Requirements:**
 MATLAB (R2019a or later is recommended)
 
 GeoTIFF file format support for geotiffread
 
 Input data: LiCSAR interferogram data in .geo.*.tif format
 
-Script Overview
+**Script Overview:**
 The script performs the following main tasks:
 
 Extracts the average height of the satellite:
